@@ -196,17 +196,17 @@ function convertTimeTo12HourFormat(time) {
 }
 function getIcon(condition) {
   if (condition === "partly-cloudy-day") {
-    return "./icons/cloudy.png";
+    return "./cloudy.png";
   } else if (condition === "partly-cloudy-night") {
-    return "./icons/moon.png";
+    return "./moon.png";
   } else if (condition === "rain") {
-    return "./icons/rain.png";
+    return "./rain.png";
   } else if (condition === "clear-day") {
-    return "./icons/clear-sky.png";
+    return "./clear-sky.png";
   } else if (condition === "clear-night") {
-    return "./icons/moon.png";
+    return "./moon.png";
   } else {
-    return "./icons/clear-sky.png";
+    return "./clear-sky.png";
   }
 }
 function getDayName(date) {
@@ -284,17 +284,17 @@ function changeBackground(condition) {
   const body = document.querySelector("body");
   let bg = "";
   if (condition === "partly-cloudy-day") {
-    bg = "./images/partly-cloudy-day.jpg";
+    bg = "./partly-cloudy-day.jpg";
   } else if (condition === "partly-cloudy-night") {
-    bg = "./images/partly-cloudy-night.jpg";
+    bg = "./partly-cloudy-night.jpg";
   } else if (condition === "rain") {
-    bg = "./images/rain.jpg";
+    bg = "./rain.jpg";
   } else if (condition === "clear-day") {
-    bg = "./images/clear-sky.jpg";
+    bg = "./clear-sky.jpg";
   } else if (condition === "clear-night") {
-    bg = "./images/night.jpg";
+    bg = "./night.jpg";
   } else {
-    bg = "./images/clear-sky.jpg";
+    bg = "./clear-sky.jpg";
   }
   body.style.backgroundImage = `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(${bg})`;
 }
