@@ -15,7 +15,7 @@ body{
     min-width: 100px;
     padding: 50px;
     background-color:var(--primary-clr);
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./images/partly-cloudy-day.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./partly-cloudy-day.jpg');
     background-size: cover;
     background-position: center;
 
